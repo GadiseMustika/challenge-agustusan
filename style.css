@@ -46,7 +46,7 @@ ul li{
 }
 .search-icon{
     position: absolute;
-    top: 12.2%;
+    top: 13%;
     left: 66.3%;
 }
 
@@ -111,7 +111,7 @@ header .card-text{
     color: #656565;
 }
 
-.card-link a {
+.card-link-reservation a {
     padding: 20px;
     background-color: #FDC886;
     text-decoration: none;
@@ -129,4 +129,52 @@ header .card-text{
     font-weight: 400;
     color: #232631;
     margin-left: 10px;
+}
+
+/* section benerfits */
+.benefits .special{
+    color: #5A4FCF !important;
+    font-weight: 500 !important;
+  
+}
+.benefits h5{
+    color: #232631;
+}
+.card{
+    padding: 4px;
+    width: 20rem;
+    margin: 10px;
+    border-radius: 15px !important;
+}
+.benefit-cards a{   
+    color: #232631;
+}
+
+.benefits .card-icons{
+    margin: auto;
+    width: 80px;
+    height: 85px;
+    background-color: rgba(253, 200, 134, .15);
+    margin-top: 10px;
+}
+.card-icons .icon{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.shining-icon{
+    margin-left: 18px;
+}
+
+.benefits h6{
+    color: #232631;
+}
+.benefits p{
+    color: #656565;
+}
+.card-link-details:hover{
+    background-color: #FDC886;
+    border-radius: 10px;
+    padding: 20px;
+    color: #232631;
+    transition: .4s;
 }
