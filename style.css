@@ -46,12 +46,9 @@ ul li{
 }
 .search-icon{
     position: absolute;
-    top: 13%;
+    top: 12%;
     left: 66.3%;
 }
-
-
-
 li:hover{
     border-bottom: 2px solid #5A4FCF;
     transition: .1s ;
@@ -141,7 +138,7 @@ header .card-text{
     color: #232631;
 }
 .card{
-    padding: 4px;
+    padding: 9.5px;
     width: 20rem;
     margin: 10px;
     border-radius: 15px !important;
@@ -177,4 +174,67 @@ header .card-text{
     padding: 20px;
     color: #232631;
     transition: .4s;
+}
+/* top-restaurant section */
+.top-restaurant{
+    margin-top: 50px;
+}
+.top-restaurant .top-featured{
+    line-height: 200%;
+    margin: auto;
+}
+.top-restaurant p{
+    color: #5A4FCF;
+}
+.top-restaurant h5{
+    font-size: 28px;
+    color: #232631;
+    font-weight: 600;
+}
+.top-restaurant .opinion{
+    color: #656565;
+    line-height: 150%;
+}
+.top-restaurant a{
+    padding: 15px;
+    font-size: 16px;
+    background-color: #FDC886;
+    color:#232631;
+    margin-top: 50px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.top-restaurant .img-restaurant{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.top-restaurant1 .card{
+position: absolute;
+bottom: -65rem;
+left: 35rem;
+padding: 5px;
+width: 22rem;
+border-radius: 24px;
+}
+.top-restaurant1 .card-body{
+    line-height: 40%
+}
+.top-restaurant1 h6{
+    color: #232631;
+}
+.top-restaurant1 .location{
+    margin-left: -6px;
+}
+.top-restaurant1 .visit{
+    width: 37px;
+    padding: 5px;
+    background-color:#FDC886 ;
+    border-radius: 10px;
+    position: absolute;
+    right: 8%;
+    top: 30%;
+}
+.visit img{
+    margin-left: 2px;
 }
