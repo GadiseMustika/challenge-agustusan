@@ -82,8 +82,8 @@ li:hover{
     margin-top: 50px;
 }
 header .card{
-    width: 22rem;
-    height: 18.5rem;
+    width: 23rem;
+    height: 19.2rem;
     z-index: 100;
     border-radius: 24px;
     position: absolute;
@@ -93,6 +93,7 @@ header .card{
 header .card-body{
     margin: 20px;
     line-height: 35px;
+    text-align: justify;
 }
 .rating{
     color: gold;
@@ -209,13 +210,16 @@ header .card-text{
     margin-left: 120px;
     margin-top: 50px;
 }
+.img-restaurant img{
+    margin-left: 3px
+}
 .top-restaurant1 .card{
-position: absolute;
-bottom: -65rem;
-left: 35rem;
-padding: 5px;
-width: 22rem;
-border-radius: 24px;
+    position: absolute;
+    bottom: -65rem;
+    left: 35rem;
+    padding: 5px;
+    width: 22rem;
+    border-radius: 24px;
 }
 .top-restaurant1 .card-body{
     line-height: 40%
@@ -237,4 +241,86 @@ border-radius: 24px;
 }
 .visit img{
     margin-left: 2px;
+}
+/* based restaurant */
+.based-restaurant{
+    margin-top: 100px;
+}
+.based-restaurant p{
+    color: #5A4FCF;
+}
+.based-restaurant .btn{
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-radius: 12px;
+}
+.based-restaurant .card-text{
+    font-size: 15px;
+}
+.based-restaurant img{
+    margin-left: 20px;
+}
+.based-restaurant .card{
+    position: absolute;
+    top: 138rem;
+    left: 7rem;
+    padding: 5px;
+    width: 22rem;
+    border-radius: 24px;
+}
+.based-restaurant #card2{
+    position: absolute;
+    top: 138rem;
+    left: 35rem;
+    padding: 5px;
+    width: 22rem;
+    border-radius: 24px;
+}
+.based-restaurant #card3{
+    position: absolute;
+    top: 138rem;
+    left: 63rem;
+    padding: 5px;
+    width: 22rem;
+    border-radius: 24px;
+}
+.based-restaurant .card-body {
+    line-height: 40%;
+}
+
+.based-restaurant h6 {
+    color: #232631;
+}
+
+.based-restaurant .location {
+    margin-left: -6px;
+}
+
+.based-restaurant .visit {
+    width: 37px;
+    padding: 5px;
+    background-color: #FDC886;
+    border-radius: 10px;
+    position: absolute;
+    right: 8%;
+    top: 30%;
+}
+
+.visit img {
+    margin-left: 2px;
+}
+.rate{
+    margin-left: -20px;
+}
+.based-restaurant a{
+    padding: 18px;
+    font-size: 16px;
+    background-color: #FDC886;
+    color: #232631;
+    border-radius: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-view img{
+    margin-left: -1.5px;
 }

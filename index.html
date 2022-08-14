@@ -52,7 +52,7 @@
                 <img src="./assets/restaurant.png" class="d-block w-80  slider" alt="slider">
                 <div class="card">
                     <div class="card-body">
-                        <div class="rate">
+                        <div id="rate">
                             <img src="./assets/star.png" alt="five_star"><span class="fw-bold rating">5.0</span><span
                                 class="text-muted fw-normal "> (5.2K+)</span>
                         </div>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-                <div class="carousel-item" data-bs-interval="200">
+                <div class="carousel-item" data-bs-interval="5000" >
                     <img src="./assets/restaurant2.png" class="d-block w-95 slider" alt="slider">
 
                 </div>
@@ -157,7 +157,7 @@
             <img src="./assets/top-restaurant1.png" alt="top-restaurant1" class="mr-4">
             <div class="card">
                 <div class="card-body">
-                <div class="rate">
+                <div id="rate">
                     <img src="./assets/Star 1.png" alt="star"><span class="fw-bold rating">5.0</span><span
                         class="text-muted fw-normal "> (7.6K+)</span>
                 </div>
@@ -181,8 +181,83 @@
     </div>
 </section>
 
-
-
+<!-- based restaurant -->
+<section class="based-restaurant">
+    <div class="based-city  d-flex justify-content-between">
+        <span>
+        <p class="text-uppercase fs-7 fw-bold">Restaurant Based By City</p>
+        <h3 class="text-nowrap fw-bold">Restaurant Near You</h3>
+        </span>
+        <div class="dropdown">
+            <a class="btn btn-sm dropdown-toggle mr-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/location.svg" alt="location" class="mr-4"><span class="card-text fw-normal ">Jakarta,
+                Indonesia</span>
+            </a>
+        </div>
+    </div>
+        <br>
+        <div class="img-near-restaurant d-flex justify-content-center">
+            <div id="place-1">
+                <img src="./assets/near-restaurant.png" alt="">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="rate">
+                            <img src="./assets/Star 1.png" alt="star"><span class="fw-bold rating">5.0</span><span
+                                class="text-muted fw-normal "> (6.6K+)</span>
+                        </div>
+                        <br>
+                            <h6 class="card-title fw-bold">Batavia Restaurant</h6>
+                            <br>
+                            <h6 class="card-subtitle mb-2 text-muted fw-bold">IDR 29.000 - IDR 259.999</h6>
+                        <div class="visit">
+                            <img src="./assets/Iconly/Light-outline/Arrow - Right.svg" alt="visit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="place-2">
+                <img src="./assets/near-restaurant2.png" alt="">
+                <div class="card" id="card2">
+                    <div class="card-body">
+                        <div class="rate">
+                            <img src="./assets/Star 1.png" alt="star"><span class="fw-bold rating">5.0</span><span
+                                class="text-muted fw-normal "> (3.6K+)</span>
+                        </div>
+                        <br>
+                        <h6 class="card-title fw-bold">Split Ascent Restaurant</h6>
+                        <br>
+                        <h6 class="card-subtitle mb-2 text-muted fw-bold">IDR 49.999 - IDR 560.000</h6>
+                        <div class="visit">
+                            <img src="./assets/Iconly/Light-outline/Arrow - Right.svg" alt="visit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <div id="place-3">
+                <img src="./assets/near-restaurant3.png" alt="">
+                <div class="card" id="card3">
+                    <div class="card-body">
+                        <div class="rate">
+                            <img src="./assets/Star 1.png" alt="star"><span class="fw-bold rating">5.0</span><span
+                                class="text-muted fw-normal "> (11K+)</span>
+                        </div>
+                        <br>
+                        <h6 class="card-title fw-bold">Daza Fracture Restaurant</h6>
+                        <br>
+                        <h6 class="card-subtitle mb-2 text-muted fw-bold">IDR 29.999 - IDR 560.000</h6>
+                        <div class="visit">
+                            <img src="./assets/Iconly/Light-outline/Arrow - Right.svg" alt="visit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="d-flex justify-content-center mt-4 align-items-center btn-view">
+        <a href="#" class="text-decoration-none view-restaurant text-center">View All Restaurant<img src="./assets/right_arrow.png"
+                alt="right_arrow"></a>
+        </span>
+</section>
 
 </div>    
 </body>
